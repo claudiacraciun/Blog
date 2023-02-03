@@ -1,0 +1,580 @@
+body{
+    background-color:#eeeff1;
+}
+
+
+header{
+    display:grid;
+    grid-template-columns: 100px 200px 600px 250px 30px;
+    grid-template-rows: 70px;
+    justify-content: center;
+    
+}
+
+header nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+header div{
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    margin-top: 5px;
+}
+
+header input{
+    width: 100px;
+    height: 30px;
+    justify-self: end;
+    margin: auto 0;
+}
+
+header button{
+    height: 35px;
+    margin: auto 0;
+    background-color: #f6913a;
+    color: white;
+    border: 0;
+}
+
+
+@font-face{
+    font-family: digital;
+    src: url(digital.ttf)
+}
+
+header h3{
+    font-family: digital;
+}
+
+header h3 span{
+    color: #f6913a;
+}
+
+@font-face{
+    font-family: regular;
+    src: url(fonts/regular.woff);
+
+}
+
+
+header nav h4{
+ 
+    font-family: regular;
+    
+}
+
+header nav h4:first-child::after {
+    content: " ";
+    background-image: url(expand_more_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 4px;
+    display: block;
+    margin-top: 0;
+}
+  
+header nav h4:nth-child(2)::after {
+    content: " ";
+    background-image: url(expand_more_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 4px;
+    display: block;
+    margin-top: 0;
+}
+
+header nav h4:nth-child(3)::after {
+    content: " ";
+    background-image: url(expand_more_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 4px;
+    display: block;
+    margin-top: 0;
+}
+/* .container: flex */
+.container{
+    display:flex;
+    border: 1px solid #f6913a;
+    background-color: #f6913a;
+    margin: auto 0;
+    justify-content: center; 
+    flex-wrap: nowrap;
+    height: 45px;
+
+}  
+
+.container h5::after{
+    content: " ";
+    background-image: url(expand_more_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+        
+
+}
+
+.container h5:last-child::after{
+    content: " ";
+    background-image: url(expand_more_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 4px;
+    display: none;
+    margin: 0 auto;
+
+}
+
+
+@font-face{
+    font-family: pro;
+    src: url(fonts/pro.woff);
+}
+
+.container h5{
+    font-family: pro;
+    color: white;
+    size: 14px;
+    margin: auto 7px;
+}
+
+/* .container1: flex */
+.container1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px 20px 40px;
+       
+
+}
+
+.card:first-child{
+    background-image: url(franta2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 148px;
+    width: 272px;
+   
+            
+
+} 
+
+.card:nth-child(2){
+    background-image: url(egipt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 148px;
+    width: 272px;
+    
+
+}
+.card:nth-child(3){
+    background-image: url(iran.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 148px;
+    width: 272px;
+    
+    
+
+}
+
+.card:nth-child(4){
+    background-image: url(romania2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 148px;
+    width: 272px;
+    
+    
+}
+
+.card:nth-child(5){
+   background-color: black;
+   height: 148px;
+   width: 196px;
+    
+}
+
+@font-face{
+    font-family: pro;
+    src: url(fonts/pro.woff);
+
+}
+
+.card h3{
+    font-family: pro;
+    color: white;
+    margin: auto 0;
+    font-size: 30px;
+    margin-top: 50px; 
+            
+}
+/* clip-path */
+
+.label{
+    clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 99%, 0% 50%, 0 0);
+    background-color: #f6913a;
+    padding: 7px;
+    position: relative;
+    top: 12px;
+    
+  
+}
+
+.label a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.container1 .card a{
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+
+}
+
+.card span:last-child{
+    position: relative;
+    top: 55px;
+    
+   
+}
+
+
+
+.container1 .card a:hover{
+    text-decoration: underline;
+   
+}
+
+/* flexbox-container */
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+    
+}
+
+/* Coloana 1 */
+.flexbox-item-1{
+    width: 600px;
+    height: 550px;
+    /* border: 1px solid black; */
+    margin: 20px;
+
+    
+}
+
+.flexbox-item-2{
+    width: 300px;
+    height: 1000px;
+    /* border: 1px solid black; */
+    margin: 20px;
+}
+
+.flexbox-item-3{
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;    
+    margin: 20px;
+}
+
+.card1{
+    margin-bottom: 30px;
+    background-color:white;
+    padding: 25px;
+
+
+}
+.flexbox-container .flexbox-item-1 .card1:first-child .picture{
+    background-image: url(Egiptean.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(2) .picture{
+    background-image: url(vasco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(3) .picture{
+    background-image: url(Nisipurile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(4) .picture{
+    background-image: url(Wadi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(5) .picture{
+    background-image: url(Catalina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(6) .picture{
+    background-image: url(Hegra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(7) .picture{
+    background-image: url(Jacuzzi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(8) .picture{
+    background-image: url(Zakynthos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(9) .picture{
+    background-image: url(Teleferic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+.flexbox-container .flexbox-item-1 .card1:nth-child(10) .picture{
+    background-image: url(Indonezia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    
+}
+
+
+.label1{
+    clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 99%, 0% 50%, 0 0);
+    background-color: #f6913a;
+    padding: 7px;
+    position: relative;
+    top: 18px;
+    left: -7px;
+    
+  
+}
+
+.label1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.flexbox-item-1 a:hover{
+    text-decoration: underline;
+}
+
+.flexbox-item-1 article h2{   
+    margin: 20px 30px;
+}
+
+.flexbox-item-1 article h2 a{   
+    color: #f6913a;
+    text-decoration: none;
+}
+.flexbox-container .flexbox-item-1 article h2 a:hover{
+    text-decoration: underline; 
+}
+
+
+.flexbox-item-1 article p{
+    font-size: 14px;
+    margin: 20px 30px;
+} 
+
+.flexbox-item-1 hr{
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.427);
+}
+
+.flexbox-item-1 footer .date{
+    font-size: 12px;
+    margin: 30px 10px 50px 30px;
+
+}
+
+
+.flexbox-item-1 .date::before {
+    content: " ";
+    background-image:url(clock1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    
+}
+
+.flexbox-item-1 footer .view{
+    font-size: 12px;
+    margin: 30px 5px;
+
+}
+
+.flexbox-item-1 .view::before{
+    content: " ";
+    background-image:url(eye.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    
+}
+
+.flexbox-item-1 footer .comments{
+    font-size: 12px;
+    margin: 30px 5px;
+
+}
+
+.flexbox-item-1 .comments::before{
+    content: " ";
+    background-image:url(comments.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    
+}
+
+
+.flexbox-item-1 footer .extra{
+    font-size: 12px;
+    margin: 30px 30px 30px 200px;
+    font-weight: bold;
+
+
+}
+
+.flexbox-item-1 footer a{
+    color:#f6913a;
+
+}
+
+
+/* pagination */
+
+.pagination{
+    display: inline-block;
+    font-size: 10px;
+}
+
+.pagination a{
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 0 4px;
+}
+
+/* end pagination */
+
+/* column 2 */
+
+.flexbox-item-2 .card2:first-child{
+    margin-bottom: 30px;
+    background-color:white;
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+.flexbox-item-2 .card2:nth-child(2){
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: white;
+    
+}
+
+.label2{
+    clip-path: polygon(100% 0%, 95% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    background-color: black;
+    padding: 7px;
+    height: 18px;
+    width: 100%;
+    color:white;
+    font-size: 12px;
+    display: block;
+}
+
+.flexbox-container .flexbox-item-2 .card2 .picture2 img{
+    float:left;
+    width:40px;
+}
+
+.flexbox-container .flexbox-item-2 .card2 .picture2{
+    margin: 25px;
+}
+
+
